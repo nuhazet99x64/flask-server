@@ -14,10 +14,13 @@
         <nav>
             <ul>
                 <li>
-                    <a href="/">Inicio</a>
+                    <a href="{{ url_for('home') }}">Inicio</a>
                 </li>
                 <li>
-                    <a href="/saludo/amigo">Saluda</a>
+                    <a href="{{url_for('saludo', name='invitado')}}">Saluda</a>
+                </li>
+                <li>
+                    <a href="{{url_for('catalogo')}}">Catalogo</a>
                 </li>
             </ul>
         </nav>
