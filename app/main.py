@@ -34,7 +34,6 @@ def catalogo(id_producto):
     return render_template(
         "catalogo.html",
         nombre="algo",
-        id_producto=id_producto,
         lista_productos=productos,
     )
 
