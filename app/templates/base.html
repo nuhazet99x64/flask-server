@@ -6,11 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block title%}Mi app{% endblock%}</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/static.css') }}">
+    <link rel="icon" href="{{ url_for('static', filename='images/logo.png') }}" type="image/x-icon">
 </head>
 
 <body>
     <header>
-        <h1>Esta es la Cabecera de mi aplicación</h1>
+        <h1>Esta es la Cabecera de mi aplicación<img src="{{ url_for('static', filename='images/logo.png') }}"
+                alt="logo" height="50" width="50"></h1>
+
         <hr>
         <nav>
             <ul>
@@ -22,6 +25,12 @@
                 </li>
                 <li>
                     <a href="{{url_for('catalogo')}}">Catalogo</a>
+                </li>
+                <li>
+                    <a href="{{url_for('contacto_get')}}">Contacto</a>
+                </li>
+                <li>
+                    <a href="{{url_for('filtrar')}}">Filtrar</a>
                 </li>
             </ul>
         </nav>
