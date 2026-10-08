@@ -1,13 +1,8 @@
+from data.producto import productos
 from flask import Flask, render_template, url_for
 
 # Inicializamos la aplicación
 app = Flask(__name__)
-
-productos = [
-    {"nombre": "Teclado Mecánico", "precio": 49.99, "disponible": True},
-    {"nombre": "Ratón Óptico", "precio": 19.99, "disponible": False},
-    {"nombre": "Monitor 4K", "precio": 299.99, "disponible": True},
-]
 
 
 # Ruta 1: Devuelve un HTML muy básico

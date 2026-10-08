@@ -1,0 +1,15 @@
+productos = [
+    {"nombre": "Teclado Mecánico", "precio": 49.99, "disponible": True},
+    {"nombre": "Ratón Óptico", "precio": 19.99, "disponible": False},
+    {"nombre": "Monitor 4K", "precio": 299.99, "disponible": True},
+    {"nombre": "Cámara Web HD", "precio": 69.99, "disponible": True},
+    {"nombre": "Auriculares Bluetooth", "precio": 89.99, "disponible": True},
+    {"nombre": "Impresora Multifunción", "precio": 129.99, "disponible": False},
+    {"nombre": "Disco SSD 1TB", "precio": 79.99, "disponible": True},
+    {"nombre": "Router Wi‑Fi 5G", "precio": 99.99, "disponible": True},
+    {"nombre": "Altavoces USB", "precio": 59.99, "disponible": False},
+    {"nombre": "Lámpara de Escritorio", "precio": 39.99, "disponible": True},
+    {"nombre": "Micrófono USB", "precio": 54.99, "disponible": True},
+    {"nombre": "Soporte para Monitor", "precio": 24.99, "disponible": False},
+    {"nombre": 'Tablet 10"', "precio": 249.99, "disponible": True},
+]
